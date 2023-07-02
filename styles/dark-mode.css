@@ -140,6 +140,7 @@ p span {
 .participate-progress {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .participate-img {
@@ -153,6 +154,90 @@ p span {
     position: absolute;
 }
 
+h4 {
+    color: var(--dark-yellow);
+    font-family: var(--fonteDestaque);
+    text-decoration: underline;
+    text-decoration-color: var(--light-gray)
+
+}
+
+h5 {
+    color: var(--light-gray);
+    font-weight: 200;
+}
+
+.pedaling-box section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#partnership-content {
+    display: flex;
+}
+
+#partnership-instagram {
+    width: 25px;
+    height: auto;
+    color: var(--light-gray);
+}
+
+#partnership-instagram:hover {
+    color: var(--yellow);
+}
+
+#contact-buttons {
+    display: flex;
+}
+
+.icon {
+    display: grid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: 2px solid var(--light-gray);
+    transition-duration: 0.3s;
+}
+
+#contact-instagram:hover {
+    outline-offset: 4px;
+    background-image: linear-gradient(to bottom, #FE2E92, #FF8901);
+}
+
+#contact-facebook:hover {
+    outline-offset: 4px;
+    background-image: linear-gradient(to bottom, #0B66C2, #094077);
+}
+
+.icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.icon svg {
+    width: 25px;
+    height: auto;
+    color: var(--light-gray);
+}
+
+footer {
+    font-family: var(--fonteDestaque);
+    color: var(--light-gray);
+    font-weight: 100;
+}
+
+footer a {
+    color: var(--light-gray);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--yellow);
+    text-decoration: underline;
+}
 
 /* MOBILE */
 @media only screen and (max-width: 480px) {
