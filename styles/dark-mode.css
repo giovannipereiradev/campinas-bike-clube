@@ -29,12 +29,6 @@ body {
     background-color: var(--dark-gray);
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 3vw
-}
-
 #logo {
     width: 50px;
     height: 50px;
@@ -230,17 +224,71 @@ footer {
 }
 
 footer a {
-    color: var(--light-gray);
+    color: var(--yellow);
     text-decoration: none;
 }
 
 footer a:hover {
-    color: var(--yellow);
     text-decoration: underline;
 }
 
 /* MOBILE */
 @media only screen and (max-width: 480px) {
+
+    #header-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding: 2vw;
+    }
+
+    #nav-mobile {
+        display: flex;
+        justify-content: flex-end;   
+    }
+
+    nav {
+        background-color: var(--gray);
+        padding: 4vw;
+        width: 70vw;
+        height: 90dvh;
+        border-radius: 15px 0px 0px 15px;
+        position: absolute;
+        z-index: 10;
+
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #nav-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav-top a {
+        margin-bottom: 1dvh;
+        font-size: 1.1em;
+    }
+
+    #nav-top a:hover {
+        color: var(--yellow);
+        text-decoration: none;
+    }
+
+    #nav-bottom {
+        display: flex;
+    }
+
+    .icon-theme {
+        width: 25px;
+        height: 25px;
+        margin: 1vw;
+    }
+
+    #moon {
+        color: var(--yellow);
+    }
+   
 }
 
 /* SMALL TABLETS */
