@@ -67,19 +67,26 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
+    padding: 1dvh;
+    margin: 30dvh 0vw;
 }
 
 #home h1 {
     font-family: var(--fonteDestaque);
     color: var(--light-gray);
-    text-align: end;
     padding: 4vw;
     
+}
+
+#home h1 span {
+    color: var(--yellow);
 }
 
 #home p {
     font-family: var(--fonteNormal);
     color: var(--light-gray);
+
     max-width: 45vw;
     min-width: none;
     padding: 4vw;  
@@ -95,7 +102,7 @@ main {
     flex: 1;
     height: 2px;
     border: none;
-    background-color: var(--gray);
+    background-color: var(--light-gray);
 }
 
 .title h2 {
@@ -122,6 +129,14 @@ p {
 
 p span {
     color: var(--yellow);
+}
+
+#about-content {
+    text-align: justify;
+}
+
+#differentials h3 {
+    text-decoration: none;
 }
 
 #differentials section {
@@ -248,7 +263,7 @@ footer a:hover {
 
     nav {
         background-color: var(--gray);
-        padding: 4vw;
+        padding: 5vw;
         width: 70vw;
         height: 90dvh;
         border-radius: 15px 0px 0px 15px;
@@ -267,7 +282,7 @@ footer a:hover {
 
     #nav-top a {
         margin-bottom: 1dvh;
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
     #nav-top a:hover {
@@ -280,15 +295,61 @@ footer a:hover {
     }
 
     .icon-theme {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
         margin: 1vw;
     }
 
     #moon {
         color: var(--yellow);
     }
-   
+
+    .title {
+        margin:  2dvh 0vw;
+    }
+
+    .title h2 {
+        font-size: 1.2em;
+    }
+
+    main {
+        margin: 0vw 3vw;
+    }
+
+    #home h1 {
+        font-size: 2em;
+    }
+
+    #home p {
+        font-size: 1.2em;
+    }
+
+    #about-content p {
+        text-indent: 6vw;
+        margin-bottom: 1dvh;
+    }
+
+    #differentials-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .differentials-content {
+        margin: 2vw;
+        width: 40vw;
+    }
+
+    .differentials-content h3 {
+        margin-bottom: 2dvh;
+    }
+
+    #differentials-end {
+        width: auto;
+    }
+
+    #partnership-content {
+        flex-direction: column;
+    }
 }
 
 /* SMALL TABLETS */

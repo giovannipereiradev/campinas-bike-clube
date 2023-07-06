@@ -2,47 +2,51 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Campinas Bike Clube</title>
-    <link rel="shortcut icon" href="./images/logo/logo.png" type="image/png">
-    <link rel="stylesheet" href="./styles/dark-mode.css">
+    <link rel="shortcut icon" href="./images/logo/logo.png" type="image/png" />
+    <link rel="stylesheet" href="./styles/dark-mode.css" />
     <script src="./animation.js"></script>
 </head>
 
 <body id="body">
     <header>
         <div id="header-mobile">
-            <img id="logo" src="./images/logo/logo.png" alt="Logo Campinas Bike Clube">
+            <img id="logo" src="./images/logo/logo.png" alt="Logo Campinas Bike Clube" />
             <a href="#" onclick="clickMenu()">
                 <svg id="menu-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-6 h-6">
-                    <path id="primary" d="M3,12H21M9,18H21M3,6H15"
-                        style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;" />
+                    <path id="primary" d="M3,12H21M9,18H21M3,6H15" style="
+                fill: none;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 2;
+              " />
                 </svg>
             </a>
         </div>
         <div id="nav-mobile">
             <nav id="nav">
                 <div id="nav-top">
-                    <a href="#"><span>1.</span> Sobre nós</a>
-                    <a href="#"><span>2.</span> Diferenciais</a>
-                    <a href="#"><span>3.</span> Como participar</a>
-                    <a href="#"><span>4.</span> Pedaladas</a>
-                    <a href="#"><span>5.</span> Parceiros</a>
-                    <a href="#"><span>6.</span> Contatos</a>
+                    <a href="#about" onclick="closeMenu()"><span>1.</span> Sobre nós</a>
+                    <a href="#differentials" onclick="closeMenu()"><span>2.</span> Diferenciais</a>
+                    <a href="#participate" onclick="closeMenu()"><span>3.</span> Como participar</a>
+                    <a href="#pedaling" onclick="closeMenu()"><span>4.</span> Pedaladas</a>
+                    <a href="#partnership" onclick="closeMenu()"><span>5.</span> Parceiros</a>
+                    <a href="#contact" onclick="closeMenu()"><span>6.</span> Contatos</a>
                 </div>
                 <div id="nav-bottom">
                     <a href="#">
-                        <svg class="icon-theme" id="moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <svg class="icon-theme" id="moon" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
                         </svg>
                     </a>
                     <a href="../pt-ligth/index.html">
-                        <svg class="icon-theme" id="sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <svg class="icon-theme" id="sun" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
                         </svg>
@@ -53,91 +57,116 @@
     </header>
     <main id="main">
         <div id="home">
-            <h1>Campinas<br>Bike<br>Clube</h1>
-            <p>Explore a <span>liberdade</span> que uma bicicleta proporciona e descubra uma <span>paixão</span> que nos
-                une! Junte-se a nós e experimente a <span>emoção</span>, a amizade e a <span>liberdade</span> de andar
-                em grupo.</p>
+            <h1>
+                <span>C</span>ampinas<br /><span>B</span>ike<br /><span>C</span>lube
+            </h1>
+            <p>
+                Explore a <span>liberdade</span> que uma bicicleta proporciona e
+                descubra uma <span>paixão</span> que nos une! Junte-se a nós e
+                experimente a <span>emoção</span>, a amizade e a
+                <span>liberdade</span> de andar em grupo.
+            </p>
         </div>
         <div id="about">
             <div class="title">
-                <h2>
-                    <span>1.</span> Sobre nós
-                </h2>
-                <hr>
+                <h2><span>1.</span> Sobre nós</h2>
+                <hr />
             </div>
             <div id="about-content">
-                <div id="about-content-text">
-                    <p>Há quase duas décadas, o <span>Campinas Bike Clube</span> tem sido o ponto de encontro para
-                        apaixonados por ciclismo em <spamn>Campinas, SP</spamn>.</p>
-                    <p>Nossa história é marcada por amizades, superação e aventuras sobre duas rodas.</p>
-                    <p>Desde os primeiros dias, reunimos <span>ciclistas de todas as idades e níveis de
-                            habilidade</span>, compartilhando uma paixão comum pelo ciclismo. Juntos, exploramos as
-                        trilhas desafiadoras da região, enfrentamos subidas íngremes e celebramos conquistas pessoais.
-                    </p>
-                    <p>Somos uma comunidade unida pelo amor ao ciclismo, compartilhando momentos inesquecíveis enquanto
-                        pedalam em meio a paisagens deslumbrantes.</p>
-                    <p>Seja você um <span>iniciante entusiasmado</span> ou um <span>ciclista experiente</span> em busca
-                        de novos desafios, convidamos você a fazer parte da nossa história.</p>
-                    <p>Junte-se a nós no <span>Campinas Bike Clube</span> e descubra a <span>alegria</span>, a
-                        <span>camaradagem</span> e a <span>emoção</span> de pedalar ao lado de pessoas incríveis.</p>
-                </div>
+                <p>
+                    Há quase duas décadas, o <span>Campinas Bike Clube</span> tem sido
+                    o ponto de encontro para apaixonados por ciclismo em
+                    <span>Campinas, SP</span>.
+                </p>
+                <p>
+                    Nossa história é marcada por <span>amizades</span>, superação e aventuras sobre
+                    duas rodas.
+                </p>
+                <p>
+                    Desde os primeiros dias, reunimos
+                    <span>ciclistas de todas as idades e níveis de habilidade</span>,
+                    compartilhando uma paixão comum pelo ciclismo. 
+                </p>
+                <p>
+                    Juntos, <span>exploramos trilhas</span> desafiadoras da região, enfrentamos subidas íngremes e
+                    celebramos conquistas pessoais.
+                </p>
+                <p>
+                    Somos uma comunidade unida pelo <span>amor ao ciclismo</span>, compartilhando
+                    momentos inesquecíveis enquanto pedalam em meio a <span>
+                        paisagens
+                        deslumbrantes
+                    </span>.
+                </p>
+                <p>
+                    Seja você um <span>iniciante entusiasmado</span> ou um
+                    <span>ciclista experiente</span> em busca de novos desafios,
+                    convidamos você a fazer parte da nossa história.
+                </p>
+                <p>
+                    Junte-se a nós no <span>Campinas Bike Clube</span> e descubra a
+                    <span>alegria</span>, a <span>camaradagem</span> e a
+                    <span>emoção</span> de pedalar ao lado de pessoas incríveis.
+                </p>
             </div>
         </div>
         <div id="differentials">
             <div class="title">
-                <h2>
-                    <span>2.</span> Diferenciais
-                </h2>
-                <hr>
+                <h2><span>2.</span> Diferenciais</h2>
+                <hr />
             </div>
-            <section class="differentials-left">
-                <div class="differentials-content">
+            <div id="differentials-grid">
+                <section class="differentials-left differentials-content">
                     <h3>Níveis de Pedal</h3>
-                    <p>Oferecemos pedais para todos os níveis de habilidade. Seja você um ciclista iniciante,
-                        intermediário ou avançado, temos opções adequadas para você.</p>
-                </div>
-            </section>
-            <section class="differentials-right">
-                <div class="differentials-content">
-                    <h3>Ciclistas unídos</h3>
-                    <p>Participe da maior comunidade de ciclismo de Campinas e região. Faça amizades, conheça novos
-                        ciclistas e viva momentos inescqueciveis junto conosco.</p>
-                </div>
-            </section>
-            <section class="differentials-left">
-                <div class="differentials-content">
+                    <p>
+                        Oferecemos pedais para todos os níveis de habilidade. Seja você um
+                        ciclista iniciante, intermediário ou avançado, temos opções
+                        adequadas para você.
+                    </p>
+                </section>
+                <section class="differentials-right differentials-content">
+                    <h3>Ciclistas unidos</h3>
+                    <p>
+                        Participe da maior comunidade de ciclismo de Campinas e região.
+                        Faça amizades, conheça novos ciclistas e viva momentos
+                        inesquecíveis junto conosco.
+                    </p>
+                </section>
+                <section class="differentials-left differentials-content">
                     <h3>Eventos Mensais</h3>
-                    <p>Além dos pedais regulares, organizamos eventos mensais especiais. Esses eventos nos permitem
-                        explorar rotas diferentes, saindo de Campinas e visitando cidades vizinhas.</p>
-                </div>
-            </section>
-            <section class="differentials-right">
-                <div class="differentials-content">
+                    <p>
+                        Além dos pedais regulares, organizamos eventos mensais especiais.
+                        Esses eventos nos permitem explorar rotas diferentes, saindo de
+                        Campinas e visitando cidades vizinhas.
+                    </p>
+                </section>
+                <section class="differentials-right differentials-content">
                     <h3>Foco na Segurança</h3>
-                    <p>A segurança é uma prioridade absoluta para nós. Exigimos que todos os participantes dos pedais
-                        usem capacete e luzes, incluindo farol e sinalizador traseiro, para garantir a segurança do
-                        grupo.</p>
-                </div>
-            </section>
-            <section class="differentials-left">
-                <div class="differentials-content">
-                    <h3>Roteiros Planejados</h3>
-                    <p>Todas as nossas rotas são planejadas com antecedência e avaliadas pela nossa equipe de STAFFs.
-                        Assim proporcianando a melhor experiência para os nossos ciclistas. </p>
-                </div>
+                    <p>
+                        A segurança é uma prioridade absoluta para nós. Exigimos que todos
+                        os participantes dos pedais usem capacete e luzes, incluindo farol
+                        e sinalizador traseiro, para garantir a segurança do grupo.
+                    </p>
+                </section>
+            </div>
+            <section class="differentials-left differentials-content" id="differentials-end">
+                <h3>Roteiros Planejados</h3>
+                <p>
+                    Todas as nossas rotas são planejadas com antecedência e avaliadas
+                    pela nossa equipe de STAFFs. Assim proporcionando a melhor
+                    experiência para os nossos ciclistas.
+                </p>
             </section>
         </div>
         <div id="participate">
             <div class="title">
-                <h2>
-                    <span>3.</span> Como participar
-                </h2>
-                <hr>
+                <h2><span>3.</span> Como participar</h2>
+                <hr />
             </div>
             <div class="participate-progress">
                 <div class="participate-img">
                     <h3>25%</h3>
-                    <img src="./images/progress/prog25.png" alt="Barra de progresso 25%">
+                    <img src="./images/progress/prog25.png" alt="Barra de progresso 25%" />
                 </div>
                 <div class="participate-content">
                     <h3>Uma bicicleta</h3>
@@ -147,48 +176,53 @@
             <div class="participate-progress">
                 <div class="participate-content">
                     <h3>Itens de segurança</h3>
-                    <p>Obrigatório o uso de capacete, lanterna e sinalizadores noturnos.</p>
+                    <p>
+                        Obrigatório o uso de capacete, lanterna e sinalizadores noturnos.
+                    </p>
                 </div>
                 <div class="participate-img">
                     <h3>50%</h3>
-                    <img src="./images/progress/prog50.png" alt="Barra de progresso 55%">
+                    <img src="./images/progress/prog50.png" alt="Barra de progresso 55%" />
                 </div>
             </div>
             <div class="participate-progress">
                 <div class="participate-img">
                     <h3>75%</h3>
-                    <img src="./images/progress/prog75.png" alt="Barra de progresso 75%">
+                    <img src="./images/progress/prog75.png" alt="Barra de progresso 75%" />
                 </div>
                 <div class="participate-content">
                     <h3>Acessórios pessoais</h3>
-                    <p>Câmara de ar, sua bomba, power-link, outras ferramentas para sua bike.</p>
+                    <p>
+                        Câmara de ar, sua bomba, power-link, outras ferramentas para sua
+                        bike.
+                    </p>
                 </div>
             </div>
             <div class="participate-progress">
                 <div class="participate-content">
                     <h3>Disposição</h3>
-                    <p>Cada nível de pedal exige um preparo físico totalmente diferente, escolha o melhor para você.</p>
+                    <p>
+                        Cada nível de pedal exige um preparo físico totalmente diferente,
+                        escolha o melhor para você.
+                    </p>
                 </div>
                 <div class="participate-img">
                     <h3>100%</h3>
-                    <img src="./images/progress/prog100.png" alt="Barra de progresso 100%">
+                    <img src="./images/progress/prog100.png" alt="Barra de progresso 100%" />
                 </div>
             </div>
         </div>
         <div id="pedaling">
             <div class="title">
-                <h2>
-                    <span>4.</span> Pedaladas
-
-                </h2>
-                <hr>
+                <h2><span>4.</span> Pedaladas</h2>
+                <hr />
             </div>
             <div>
                 <div class="pedaling-box">
                     <h3>Terça-Feira & Quinta-Feira</h3>
                     <h5>Saída as 20h, chegar com 20 minutos de antecedência.</h5>
                     <section>
-                        <img src="./images/levels/light.png" alt="Ícone pedal Light">
+                        <img src="./images/levels/light.png" alt="Ícone pedal Light" />
                         <div class="pedaling-box-content">
                             <h4>Light</h4>
                             <p>Pedal urbano, ritmo leve, até 25km, média de 12km/h.</p>
@@ -199,13 +233,15 @@
                             <h4>Intermediário</h4>
                             <p>Pedal misto terra e asfalto, até 35km, média de 15km/h.</p>
                         </div>
-                        <img src="./images/levels/intermediary.png" alt="Ícone pedal Intermediário">
+                        <img src="./images/levels/intermediary.png" alt="Ícone pedal Intermediário" />
                     </section>
                     <section>
-                        <img src="./images/levels/advanced.png" alt="Ícone pedal avançado">
+                        <img src="./images/levels/advanced.png" alt="Ícone pedal avançado" />
                         <div class="pedaling-box-content">
                             <h4>Avançado</h4>
-                            <p>Pedal misto terra e asfalto, até 45km, média acima de 20km/h.</p>
+                            <p>
+                                Pedal misto terra e asfalto, até 45km, média acima de 20km/h.
+                            </p>
                         </div>
                     </section>
                 </div>
@@ -215,7 +251,7 @@
                     <h3>Sábado</h3>
                     <h5>Saída as 16h, chegar com 20 minutos de antecedência.</h5>
                     <section>
-                        <img src="./images/levels/evolution.png" alt="Ícone pedal Evolutivo">
+                        <img src="./images/levels/evolution.png" alt="Ícone pedal Evolutivo" />
                         <div class="pedaling-box-content">
                             <h4>Inter-light</h4>
                             <p>Pedal misto terra e asfalto, até 35km, média de 14km/h.</p>
@@ -228,7 +264,7 @@
                     <h3>Domingo</h3>
                     <h5>Saída as 7h, chegar com 20 minutos de antecedência.</h5>
                     <section>
-                        <img src="./images/levels/evolution.png" alt="Ícone pedal Intermediário">
+                        <img src="./images/levels/evolution.png" alt="Ícone pedal Intermediário" />
                         <div class="pedaling-box-content">
                             <h4>Inter-light</h4>
                             <p>Pedal misto terra e asfalto, até 35km, média de 14km/h.</p>
@@ -239,17 +275,17 @@
         </div>
         <div id="partnership">
             <div class="title">
-                <h2>
-                    <span>5.</span> Parceiros
-                </h2>
-                <hr>
+                <h2><span>5.</span> Parceiros</h2>
+                <hr />
             </div>
             <div id="partnership-content">
-                <img src="./images/logo/logo-s2.png" alt="Logo S2 Bike Shop">
+                <img src="./images/logo/logo-s2.png" alt="Logo S2 Bike Shop" />
                 <section>
                     <h3>S2 Bike Shop</h3>
-                    <p>A S2 Bike Shop é uma loja parceira dedicada à venda e manutenção de bicicletas. S2 Bike Shop
-                        oferece benefícios exclusivos aos membros, incluindo descontos especiais em bikes e serviços.
+                    <p>
+                        A S2 Bike Shop é uma loja parceira dedicada à venda e manutenção
+                        de bicicletas. S2 Bike Shop oferece benefícios exclusivos aos
+                        membros, incluindo descontos especiais em bikes e serviços.
                     </p>
                     <a href="https://www.instagram.com/s2pauliniasp/" target="_blank" rel="noopener noreferrer">
                         <svg id="partnership-instagram" xmlns="http://www.w3.org/2000/svg"
@@ -261,9 +297,7 @@
                                     <g id="icons" transform="translate(56.000000, 160.000000)">
                                         <path
                                             d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
-                                            id="instagram-[#167]">
-
-                                        </path>
+                                            id="instagram-[#167]"></path>
                                     </g>
                                 </g>
                             </g>
@@ -271,15 +305,11 @@
                     </a>
                 </section>
             </div>
-
         </div>
         <div id="contact">
             <div class="title">
-                <h2>
-                    <span>6.</span> Contatos
-
-                </h2>
-                <hr>
+                <h2><span>6.</span> Contatos</h2>
+                <hr />
             </div>
             <div id="contact-buttons">
                 <div id="contact-instagram" class="icon">
@@ -292,8 +322,7 @@
                                     <g id="icons" transform="translate(56.000000, 160.000000)">
                                         <path
                                             d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
-                                            id="instagram-[#167]">
-                                        </path>
+                                            id="instagram-[#167]"></path>
                                     </g>
                                 </g>
                             </g>
@@ -317,7 +346,10 @@
         </div>
     </main>
     <footer>
-        <h2>Desenvolvido por <a href="https://giovannipereiradev.github.io/my-portifolio/">Giovanni Pereira</a></h2>
+        <h2>
+            Desenvolvido por
+            <a href="https://giovannipereiradev.github.io/my-portifolio/">Giovanni Pereira</a>
+        </h2>
     </footer>
 </body>
 
