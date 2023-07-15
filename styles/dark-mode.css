@@ -325,6 +325,16 @@ footer a:hover {
         font-size: 1.2em;
     }
 
+    #contact, #about, #differentials, #participate {
+        padding-top: 2dvh;
+    }
+
+    
+    
+    #about-content {
+        margin: 5dvh 0vw;
+    }
+
     #about-content p {
         text-indent: 6vw;
         margin-bottom: 1dvh;
@@ -368,6 +378,10 @@ footer a:hover {
         text-align: end;
     }
 
+    #pedaling {
+        padding-top: 0.5dvh;
+    }
+
     .pedaling-box h3 {
         margin-bottom: 1dvh;
     }
@@ -408,6 +422,7 @@ footer a:hover {
     }
 
     footer {
+        margin-top: 75px;
         height: 305px;
         background-image: url('../images/footers/480px.png');
         display: flex;
