@@ -1,8 +1,3 @@
-//const nav =  document.querySelector("#nav")
-//const body =  document.querySelector("#body")
-//const main =  document.querySelector("#main")
-
-
 function clickMenu() {
     if (nav.style.display == 'flex') {
         nav.style.display = 'none'
