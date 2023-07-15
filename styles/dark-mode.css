@@ -376,7 +376,18 @@ footer a:hover {
         font-style: italic;
     }
 
-    
+    #partnership-content img {
+        border-radius: 10px;
+    }
+
+    #partnership-section {
+        margin-top: 3dvh;
+        text-align: justify;
+    }
+
+    #partnership-section h3,  #partnership-section p{
+        margin-bottom: 1dvh;
+    }
 
     #partnership-content {
         flex-direction: column;
