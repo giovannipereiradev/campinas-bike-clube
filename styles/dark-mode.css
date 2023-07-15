@@ -236,16 +236,16 @@ h5 {
 footer {
     font-family: var(--fonteDestaque);
     color: var(--light-gray);
-    font-weight: 100;
 }
 
 footer a {
-    color: var(--yellow);
-    text-decoration: none;
+    color: var(--light-gray);
+    text-decoration: underline;
 }
 
 footer a:hover {
     text-decoration: underline;
+    color: var(--yellow);
 }
 
 /* MOBILE */
@@ -389,8 +389,34 @@ footer a:hover {
         margin-bottom: 1dvh;
     }
 
+    #contact-buttons {
+        justify-content: center;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        margin: 30px;
+    }
+
+    .icon svg {
+        width: 35px;
+    }
+
     #partnership-content {
         flex-direction: column;
+    }
+
+    footer {
+        height: 305px;
+        background-image: url('../images/footers/480px.png');
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    footer h2 {
+        margin-bottom: 0.5dvh;
     }
 }
 
