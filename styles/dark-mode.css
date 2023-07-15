@@ -348,25 +348,35 @@ footer a:hover {
         width: auto;
     }
 
-    .participate-progress {
+    .participate-progress, .pedaling-section {
         display: flex;
         justify-content: space-between;
         margin: 4dvh 0vw;
 
     }
 
-    .participate-content {
+    .participate-content , .pedaling-content {
         width: 46vw;
         text-align: justify;
     }
 
-    .participate-content h3 {
+    .participate-content h3, .pedaling-content h4 {
         margin-bottom: 1dvh;
     }
     
-    .participate-content-right h3 {
+    .participate-content-right h3, .pedaling-content-right h4 {
         text-align: end;
     }
+
+    .pedaling-box h3 {
+        margin-bottom: 1dvh;
+    }
+
+    .pedaling-box h5 {
+        font-style: italic;
+    }
+
+    
 
     #partnership-content {
         flex-direction: column;
