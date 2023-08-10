@@ -119,7 +119,6 @@ main {
 h3 {
     color: var(--yellow);
     font-family: var(--fonteDestaque);
-    text-decoration: underline;
     text-decoration-color: var(--light-gray);
 }
 
@@ -162,12 +161,12 @@ p span {
 
 .participate-img h3 {
     position: absolute;
+    font-size: 1.1em;
 }
 
 h4 {
     color: var(--dark-yellow);
     font-family: var(--fonteDestaque);
-    text-decoration: underline;
     text-decoration-color: var(--light-gray)
 
 }
@@ -325,12 +324,24 @@ footer a:hover {
         font-size: 1.2em;
     }
 
+    #contact-buttons {
+        justify-content: center;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        margin: 15px;
+    }
+
+    .icon svg {
+        width: 35px;
+    }
+
     #contact, #about, #differentials, #participate {
         padding-top: 2dvh;
     }
 
-    
-    
     #about-content {
         margin: 5dvh 0vw;
     }
@@ -342,26 +353,21 @@ footer a:hover {
 
     #differentials-grid {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     
     .differentials-content {
-        margin: 2vw;
-        width: 37vw;
+        margin-bottom: 2dvh;
     }
 
     .differentials-content h3 {
         margin-bottom: 2dvh;
     }
 
-    #differentials-end {
-        width: auto;
-    }
-
     .participate-progress, .pedaling-section {
         display: flex;
         justify-content: space-between;
-        margin: 4dvh 0vw;
+        padding: 2dvh 0vw;
 
     }
 
@@ -380,6 +386,20 @@ footer a:hover {
 
     #pedaling {
         padding-top: 0.5dvh;
+    }
+
+    .pedaling-section-lines {
+        border-top: 2px solid var(--gray);
+        border-bottom: 2px solid var(--gray);
+    }
+
+    .pedaling-lines{
+        border-top: 1px solid var(--light-gray);
+        border-bottom: 1px solid var(--light-gray);
+    }
+
+    .pedaling-box {
+        padding: 2dvh;
     }
 
     .pedaling-box h3 {
@@ -401,20 +421,6 @@ footer a:hover {
 
     #partnership-section h3,  #partnership-section p{
         margin-bottom: 1dvh;
-    }
-
-    #contact-buttons {
-        justify-content: center;
-    }
-
-    .icon {
-        width: 60px;
-        height: 60px;
-        margin: 30px;
-    }
-
-    .icon svg {
-        width: 35px;
     }
 
     #partnership-content {
