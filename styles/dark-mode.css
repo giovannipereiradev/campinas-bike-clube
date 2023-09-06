@@ -428,9 +428,8 @@ footer a:hover {
     }
 
     footer {
-        margin-top: 75px;
-        height: 305px;
-        background-image: url('../images/footers/480px.png');
+        height: 382px;
+        background-image: url('../images/footers/480px.svg');
         display: flex;
         align-items: flex-end;
         justify-content: center;
@@ -443,10 +442,390 @@ footer a:hover {
 
 /* SMALL TABLETS */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
+    main {
+        padding: 0vh 10vw;
+    }
+    
+    #header-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding: 2vw;
+    }
+
+    #nav-mobile {
+        display: flex;
+        justify-content: flex-end;   
+    }
+
+    nav {
+        background-color: var(--gray);
+        padding: 5vw;
+        width: 70vw;
+        height: 90dvh;
+        border-radius: 15px 0px 0px 15px;
+        position: absolute;
+        z-index: 10;
+
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #nav-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav-top a {
+        margin-bottom: 1dvh;
+        font-size: 1.3em;
+    }
+
+    #nav-top a:hover {
+        color: var(--yellow);
+        text-decoration: none;
+    }
+
+    #nav-bottom {
+        display: flex;
+    }
+
+    .icon-theme {
+        width: 30px;
+        height: 30px;
+        margin: 1vw;
+    }
+
+    #moon {
+        color: var(--yellow);
+    }
+
+    .title {
+        margin:  2dvh 0vw;
+    }
+
+    .title h2 {
+        font-size: 1.2em;
+    }
+
+    main {
+        margin: 0vw 3vw;
+    }
+
+    #home h1 {
+        font-size: 2em;
+    }
+
+    #home p {
+        font-size: 1.2em;
+    }
+
+    #contact-buttons {
+        justify-content: center;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        margin: 15px;
+    }
+
+    .icon svg {
+        width: 35px;
+    }
+
+    #contact, #about, #differentials, #participate {
+        padding-top: 2dvh;
+    }
+
+    #about-content {
+        margin: 5dvh 0vw;
+    }
+
+    #about-content p {
+        text-indent: 6vw;
+        margin-bottom: 1dvh;
+    }
+
+    #differentials-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .differentials-content {
+        margin-bottom: 2dvh;
+    }
+
+    .differentials-content h3 {
+        margin-bottom: 2dvh;
+    }
+
+    .participate-progress, .pedaling-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 2dvh 0vw;
+
+    }
+
+    .participate-content , .pedaling-content {
+        width: 46vw;
+        text-align: justify;
+    }
+
+    .participate-content h3, .pedaling-content h4 {
+        margin-bottom: 1dvh;
+    }
+    
+    .participate-content-right h3, .pedaling-content-right h4 {
+        text-align: end;
+    }
+
+    #pedaling {
+        padding-top: 0.5dvh;
+    }
+
+    .pedaling-section-lines {
+        border-top: 2px solid var(--gray);
+        border-bottom: 2px solid var(--gray);
+    }
+
+    .pedaling-lines{
+        border-top: 1px solid var(--light-gray);
+        border-bottom: 1px solid var(--light-gray);
+    }
+
+    .pedaling-box {
+        padding: 2dvh;
+    }
+
+    .pedaling-box h3 {
+        margin-bottom: 1dvh;
+    }
+
+    .pedaling-box h5 {
+        font-style: italic;
+    }
+
+    #partnership-content img {
+        border-radius: 10px;
+    }
+
+    #partnership-section {
+        margin-top: 3dvh;
+        text-align: justify;
+    }
+
+    #partnership-section h3,  #partnership-section p{
+        margin-bottom: 1dvh;
+    }
+
+    #partnership-content {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 598px;
+        background-image: url('../images/footers/767px.svg');
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    footer h2 {
+        margin-bottom: 0.5dvh;
+    }
 }
 
 /* TABLETS */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    main {
+        padding: 0vh 10vw;
+    }
+    
+    #header-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding: 2vw;
+    }
+
+    #nav-mobile {
+        display: flex;
+        justify-content: flex-end;   
+    }
+
+    nav {
+        background-color: var(--gray);
+        padding: 5vw;
+        width: 40vw;
+        height: 90dvh;
+        border-radius: 15px 0px 0px 15px;
+        position: absolute;
+        z-index: 10;
+
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #nav-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav-top a {
+        margin-bottom: 1dvh;
+        font-size: 1.3em;
+    }
+
+    #nav-top a:hover {
+        color: var(--yellow);
+        text-decoration: none;
+    }
+
+    #nav-bottom {
+        display: flex;
+    }
+
+    .icon-theme {
+        width: 30px;
+        height: 30px;
+        margin: 1vw;
+    }
+
+    #moon {
+        color: var(--yellow);
+    }
+
+    .title {
+        margin:  2dvh 0vw;
+    }
+
+    .title h2 {
+        font-size: 1.2em;
+    }
+
+    #home h1 {
+        font-size: 2em;
+    }
+
+    #home p {
+        font-size: 1.2em;
+    }
+
+    #contact-buttons {
+        justify-content: center;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        margin: 15px;
+    }
+
+    .icon svg {
+        width: 35px;
+    }
+
+    #contact, #about, #differentials, #participate {
+        padding-top: 2dvh;
+    }
+
+    #about-content {
+        margin: 5dvh 0vw;
+    }
+
+    #about-content p {
+        text-indent: 6vw;
+        margin-bottom: 1dvh;
+    }
+
+    #differentials-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .differentials-content {
+        margin-bottom: 2dvh;
+    }
+
+    .differentials-content h3 {
+        margin-bottom: 2dvh;
+    }
+
+    .participate-progress, .pedaling-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 2dvh 0vw;
+
+    }
+
+    .participate-content , .pedaling-content {
+        width: 46vw;
+        text-align: justify;
+    }
+
+    .participate-content h3, .pedaling-content h4 {
+        margin-bottom: 1dvh;
+    }
+    
+    .participate-content-right h3, .pedaling-content-right h4 {
+        text-align: end;
+    }
+
+    #pedaling {
+        padding-top: 0.5dvh;
+    }
+
+    .pedaling-section-lines {
+        border-top: 2px solid var(--gray);
+        border-bottom: 2px solid var(--gray);
+    }
+
+    .pedaling-lines{
+        border-top: 1px solid var(--light-gray);
+        border-bottom: 1px solid var(--light-gray);
+    }
+
+    .pedaling-box {
+        padding: 2dvh;
+    }
+
+    .pedaling-box h3 {
+        margin-bottom: 1dvh;
+    }
+
+    .pedaling-box h5 {
+        font-style: italic;
+    }
+
+    #partnership-content img {
+        border-radius: 10px;
+    }
+
+    #partnership-section {
+        margin-top: 3dvh;
+        text-align: justify;
+    }
+
+    #partnership-section h3,  #partnership-section p{
+        margin-bottom: 1dvh;
+    }
+
+    #partnership-content {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 598px;
+        background-image: url('../images/footers/767px.svg');
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    footer h2 {
+        margin-bottom: 0.5dvh;
+    }
 }
 
 /* DESKTOP */
